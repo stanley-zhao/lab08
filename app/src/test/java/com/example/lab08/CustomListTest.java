@@ -33,13 +33,13 @@ public class CustomListTest {
         });
     }
 
-//    @Test
-//    void testCountCities(){
-//        CustomList cityList = new CustomList();
-//        City city1 = new City("Charlottetown", "Prince Edward Island");
-//        City city2 = new City("Halifax", "Nova Scotia");
-//        cityList.addCity(city1);
-//        cityList.addCity(city2);
-//        assertEquals(2, cityList.countCities());
-//    }
+    @Test
+    void testCountCities(){
+        CustomList cityList = new CustomList();
+        City city1 = new City("Charlottetown", "Prince Edward Island");
+        City city2 = new City("Halifax", "Nova Scotia");
+        cityList.addCity(city1);
+        cityList.addCity(city2);
+        assertEquals(2, cityList.countCities());
+    }
 }
