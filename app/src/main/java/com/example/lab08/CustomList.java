@@ -23,12 +23,20 @@ public class CustomList {
         return cities.contains(city);
     }
 
-    public void delete(City city) {
-        if(hasCity(city)){
-            //
-            cities.remove(city);
-        }else{
-            throw new NoSuchElementException();
-        }
-    }
+//    public void delete(City city) {
+//        if(hasCity(city)){
+//            //
+//            cities.remove(city);
+//        }else{
+//            throw new NoSuchElementException();
+//        }
+//    }
+//
+//    /**
+//     * return number of cities in the list
+//     * @return number of cities in the list
+//     */
+//    public int countCities(){
+//        return cities.size();
+//    }
 }
